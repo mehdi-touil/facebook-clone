@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: #65676b;
+  text-decoration: none; /* no underline */
+}
+:root {
+  --filter-accent: invert(39%) sepia(57%) saturate(200%) saturate(200%)
+    saturate(200%) saturate(200%) saturate(200%) saturate(147.75%)
+    hue-rotate(202deg) brightness(97%) contrast(96%);
+}
+html,
+body,
+#root,
+.homepagecontainer,
+.postscontainer {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+}

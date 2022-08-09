@@ -1,0 +1,87 @@
+.invitationscontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding: 20px;
+  justify-items: center;
+  grid-gap: 10px;
+}
+.invitationcard {
+  height: 450px;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 1px 2px 20px;
+}
+.invitationimage {
+  height: 70%;
+  width: 100%;
+  background-color: rgb(141, 138, 138);
+}
+.invitationimage img {
+  width: 100%;
+  height: 100%;
+}
+.userName {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+.invitationbody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 16%;
+  margin: 10px;
+}
+.invitationbody a,
+.invitationbody button {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 6px;
+  border: none;
+  background-color: #1b74e4;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.invitationbody button a {
+  color: white;
+}
+.invitationbody button:nth-child(2) {
+  background-color: rgba(101, 101, 101, 0.221);
+  color: black;
+}
+
+.invitationbody button:nth-child(1):hover {
+  background-color: #035abd;
+}
+.invitationbody button:nth-child(2):hover {
+  background-color: rgba(45, 45, 45, 0.389);
+}
+.invitationspage h1 {
+  width: 100%;
+  text-align: center;
+  color: rgb(246, 245, 245);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1b74e4;
+}
+.btn {
+  display: flex;
+}
+.btn img {
+  margin: 5px;
+}
+.noinvitation {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 40px;
+  font-size: 1.3rem;
+}
